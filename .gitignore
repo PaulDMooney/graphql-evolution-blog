@@ -1,0 +1,20 @@
+# Ignore all hidden files
+.*
+
+# Don't ignore these config files
+!.vscode
+!.prettierrc
+!.eslintrc
+!.gitignore
+!.babelrc
+!.editorconfig
+
+# Example config file
+!.env.example
+
+# Ignore imported packages
+node_modules
+
+# Ignore process output
+dist
+coverage
